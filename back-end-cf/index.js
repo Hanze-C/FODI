@@ -4,7 +4,7 @@
  * PASSWD_FILENAME: 密码文件名
  * PROTECTED_LAYERS: EXPOSE_PATH 目录密码防护层数，防止猜测目录，默认 -1 为关闭，类似 '/Applications' 需要保护填写为 2（保护 EXPOSE_PATH 及其一级子目录），开启需在 EXPORSE_PATH 目录的 PASSWORD_FILENAME 文件中填写密码
  */
-const EXPOSE_PATH = '';
+const EXPOSE_PATH = '/Public';
 const ONEDRIVE_REFRESHTOKEN = '';
 const PASSWD_FILENAME = '.password';
 const PROTECTED_LAYERS = -1;
